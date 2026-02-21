@@ -1,8 +1,8 @@
 import Header from "@/components/header/Header";
-import "./globals.css";
+import "../globals.css";
 import Footer from "@/components/footer/Footer";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body>
