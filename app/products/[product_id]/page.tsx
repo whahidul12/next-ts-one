@@ -1,14 +1,14 @@
 import GetType from "@/utils/GetType";
 
-export default async function Products(props: {
+export default async function Products({
+  params,
+}: {
   params: Promise<{ product_id: string }>;
 }) {
-  console.log(GetType(props));
-  console.log(GetType(props.params));
-  console.log("params :>> ", await props.params);
+  const productId = (await params).product_id;
   return (
     <>
-      <h1>Products</h1>
+      <h1>Products {productId} tt</h1>
     </>
   );
 }
