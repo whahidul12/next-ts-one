@@ -43,3 +43,5 @@ next-ts-one
    └─ GetType.ts
 
 ```
+
+test for new git commit commad
