@@ -1,3 +1,15 @@
+"use client";
+import { useState } from "react";
+
 export default function Login() {
-  return <h1>login</h1>;
+  const [input, setImput] = useState("");
+  return (
+    <>
+      <input
+        className="border"
+        value={input}
+        onChange={(e) => setImput(e.target.value)}
+      ></input>
+    </>
+  );
 }
