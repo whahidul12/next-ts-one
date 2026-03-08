@@ -3,6 +3,7 @@ export default function RevenueMatrix() {
     <>
       <input></input>
       <h1>RevenueMatrix</h1>
+      <input type="text" />
       <h1>RevenueMatrix</h1>
     </>
   );
